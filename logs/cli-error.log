@@ -1,0 +1,48 @@
+2019-06-30 00:13:24 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u20180555.destinied' doesn't exist in /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 133
+Stack Trace:
+#0 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(99): Cake\Database\Schema\Collection->_reflect('Column', 'destinied', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('destinied', Array)
+#2 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/ORM/Table.php(560): Cake\Database\Schema\CachedCollection->describe('destinied')
+#3 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/ORM/Table.php(685): Cake\ORM\Table->getSchema()
+#4 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#5 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'destinied', 'Destinied')
+#7 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Destinied')
+#8 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/BakeShell.php(279): Bake\Shell\Task\ModelTask->main('Destinied')
+#9 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Destinied', 0)
+#10 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/BakeShell.php(280): Cake\Collection\Collection->each(Object(Closure))
+#11 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Console/Shell.php(518): Bake\Shell\BakeShell->all('destinied')
+#12 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#13 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 /home/u20180555/public_html/transportesAli/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u20180555.destinied' doesn't exist in /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Connection.php(350): Cake\Database\Statement\MysqlStatement->execute()
+#2 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Connection.php(302): Cake\Database\Connection->query('SHOW FULL COLUM...')
+#5 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(131): Cake\Database\Connection->execute('SHOW FULL COLUM...', Array)
+#8 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(99): Cake\Database\Schema\Collection->_reflect('Column', 'destinied', Array, Object(Cake\Database\Schema\TableSchema))
+#9 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('destinied', Array)
+#10 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/ORM/Table.php(560): Cake\Database\Schema\CachedCollection->describe('destinied')
+#11 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/ORM/Table.php(685): Cake\ORM\Table->getSchema()
+#12 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#13 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#14 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'destinied', 'Destinied')
+#15 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Destinied')
+#16 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/BakeShell.php(279): Bake\Shell\Task\ModelTask->main('Destinied')
+#17 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Destinied', 0)
+#18 /home/u20180555/public_html/transportesAli/vendor/cakephp/bake/src/Shell/BakeShell.php(280): Cake\Collection\Collection->each(Object(Closure))
+#19 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Console/Shell.php(518): Bake\Shell\BakeShell->all('destinied')
+#20 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#21 /home/u20180555/public_html/transportesAli/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#22 /home/u20180555/public_html/transportesAli/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#23 {main}
+
+
