@@ -1,0 +1,203 @@
+msgid "Admins"
+msgstr "Administradores"
+
+msgid "ACTIONS"
+msgstr "ACCIONES"
+
+msgid "New Admin"
+msgstr "Nuevo Administrador"
+
+msgid "List Destinies"
+msgstr "Lista de Destinos"
+
+msgid "New Destiny"
+msgstr "Nuevo Destino"
+
+msgid "Id"
+msgstr "Codigo"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Password"
+msgstr "Contraseña"
+
+msgid "Created"
+msgstr "Creado"
+
+msgid "Email"
+msgstr "Correo Elecrónico"
+
+msgid "Actions"
+msgstr "Acciones"
+
+msgid "View"
+msgstr "Ver"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "previous"
+msgstr "anterior"
+
+msgid "next"
+msgstr "siguiente"
+
+msgid "Documentation"
+msgstr "Documentación"
+
+msgid "Buses"
+msgstr "Autobuses"
+
+msgid "New Bus"
+msgstr "Nuevo Autobus"
+
+msgid "List Tickets"
+msgstr "Lista de Boletos"
+
+msgid "New Ticket"
+msgstr "Nuevo Boleto"
+
+msgid "Enrollment"
+msgstr "Matrícula"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "List Admins"
+msgstr "Lista de Administradores"
+
+msgid "List Reservations"
+msgstr "Lista de Reservaciones"
+
+msgid "New Reservation"
+msgstr "Nueva Reservación"
+
+msgid "Destinies"
+msgstr "Destinos"
+
+msgid "Price"
+msgstr "Precio"
+
+msgid "Admin"
+msgstr "Administrador"
+
+msgid "List Users"
+msgstr "Lista de Usuarios"
+
+msgid "New User"
+msgstr "Nuevo Usuario"
+
+msgid "List Sales"
+msgstr "Lista de Ventas"
+
+msgid "New Sale"
+msgstr "Nueva Venta"
+
+msgid "Users"
+msgstr "Usuarios"
+
+msgid "User"
+msgstr "Usuario"
+
+msgid "Reservations"
+msgstr "Reservaciones"
+
+msgid "Reservation"
+msgstr "Reservación"
+
+msgid "Deadline"
+msgstr "Fecha Límite"
+
+msgid "Destiny"
+msgstr "Destino"
+
+msgid "Sales"
+msgstr "Ventas"
+
+msgid "People"
+msgstr "Personas"
+
+msgid "List Buses"
+msgstr "Lista de Autobuses"
+
+msgid "Tickets"
+msgstr "Boletos"
+
+msgid "Doc Type"
+msgstr "Tipo de Documento"
+
+msgid "Document Number"
+msgstr "Número de Documento"
+
+msgid "Output"
+msgstr "Salida"
+
+msgid "Seat"
+msgstr "Asiento"
+
+msgid "Bus"
+msgstr "Autobus"
+
+msgid "Document"
+msgstr "Documento"
+
+msgid "Birth"
+msgstr "Nacimiento"
+
+msgid "Mail"
+msgstr "Correo Electrónico"
+
+msgid "Nationality"
+msgstr "Nacionalidad"
+
+msgid "Add Admin"
+msgstr "Añadir Administrador"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Edit Admin"
+msgstr "Editar Administrador"
+
+msgid "Are you sure you want to delete"
+msgstr "Estas seguro de eliminar"
+
+msgid "Edit Bus"
+msgstr "Editar Autobus"
+
+msgid "Add Bus"
+msgstr "Añadir Autobus"
+
+msgid "Add Destiny"
+msgstr "Añadir Destino"
+
+msgid "Edit Destiny"
+msgstr "Editar Destino"
+
+msgid "Add Reservation"
+msgstr "Añadir Reservación"
+
+msgid "Edit Reservation"
+msgstr "Editar Reservación"
+
+msgid "Add Sale"
+msgstr "Añadir Venta"
+
+msgid "Edit Sale"
+msgstr "Editar Venta"
+
+msgid "Add Ticket"
+msgstr "Añadir Boleto"
+
+msgid "Edit Ticket"
+msgstr "Editar Boleto"
+
+msgid "Add User"
+msgstr "Añadir Usuario"
+
+msgid "Edit User"
+msgstr "Editar Usuario"
